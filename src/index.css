@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1500px;
+  --color-purple: #734BDF;
+  --color-gray: #737681;
+  --color-white: #FFFFFF;
+  --color-primary: #161A2D;
+}
+
+@utility container {
+  @apply mx-auto
+}
+
+@utility p-text {
+  @apply font-normal leading-[25.6px] text-gray
+}
