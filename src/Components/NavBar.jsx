@@ -5,7 +5,7 @@ import Btn from './Btn';
 const NavBar = () => {
   return (
     <>
-    <nav className='py-6 bg-white/10 absolute top-0 left-0 w-full'>
+    <nav className='py-6 bg-white/10 absolute top-0 left-0 w-full z-2'>
         <div className="container">
             <div className="flex justify-between items-center">
                 <img src={logo} alt="" />

@@ -3,18 +3,19 @@ import border1 from '../assets/border1.svg';
 import border2 from '../assets/border2.svg';
 import border3 from '../assets/border3.svg';
 import play from '../assets/play.svg';
-
 import Btn from './Btn';
+import CountDown from './CountDown';
 
 
 const Bannar = () => {
     return (
         <>
-            <section className='bg-[url(assets/Background.png)] bg-no-repeat bg-cover bg-center'>
-                <div className="container">
+            <section className='bg-[url(assets/Background.png)] bg-no-repeat bg-cover bg-center relative '>
+                <div className='inset-0 absolute bg-[#0F3059]/50'></div>
+                <div className="container relative z-10">
                     <div className='py-37.5'>
                         <div className='w-100
-                     12 p-4 bg-white/10 mx-auto rounded-full flex text-white items-center relative'>
+                             12 p-4 bg-white/10 mx-auto rounded-full flex text-white items-center relative'>
                             <img src={border1} alt="" />
                             <img src={border2} alt="" className='absolute top-4 left-10' />
                             <img src={border3} alt="" className='absolute top-4 left-16' />
@@ -34,25 +35,7 @@ const Bannar = () => {
                                     <p className='font-bold text-white'>Watch Video</p>
                                 </div>
                             </div>
-                            <p className='text-white mt-15 mb-10'>Upcoming Speaker Reveal - Don't Miss Out</p>
-                            <div className='flex gap-7.5 justify-center'>
-                                <div className='bg-white/10 rounded-[20px] w-31.25 h-30 p-5'>
-                                    <h2 className='font-bold text-[40px] text-white '>202</h2>
-                                    <p className='p-text text-white/80'>Days</p>
-                                </div>
-                                <div className='bg-white/10 rounded-[20px] w-31.25 h-30 p-5'>
-                                    <h2 className='font-bold text-[40px] text-white '>08</h2>
-                                    <p className='p-text text-white/80'>Hours</p>
-                                </div>
-                                <div className='bg-white/10 rounded-[20px] w-31.25 h-30 p-5'>
-                                    <h2 className='font-bold text-[40px] text-white '>13</h2>
-                                    <p className='p-text text-white/80'>Minutes</p>
-                                </div>
-                                <div className='bg-white/10 rounded-[20px] w-31.25 h-30 p-5'>
-                                    <h2 className='font-bold text-[40px] text-white '>14</h2>
-                                    <p className='p-text text-white/80'>Seconds</p>
-                                </div>
-                            </div>
+                          <CountDown/>
                         </div>
                     </div>
                 </div>

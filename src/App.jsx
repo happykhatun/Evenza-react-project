@@ -5,6 +5,8 @@ import Bannar from './Components/Bannar'
 import AboutUs from './Components/AboutUs'
 import Features from './Components/Features'
 import Blog from './Components/Blog'
+import KeyBenefits from './Components/KeyBenefits'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -13,7 +15,9 @@ const App = () => {
       <Bannar/>
       <AboutUs/>
       <Features/>
+      <KeyBenefits/>
       <Blog/>
+      <Footer/>
     
     </div>
   )
