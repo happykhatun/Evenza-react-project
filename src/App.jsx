@@ -11,6 +11,7 @@ import Schedule from './Components/Schedule'
 import OurSpeakers from './Components/OurSpeakers'
 import Video from './Components/Video'
 import Testimonial from './Components/Testimonial'
+import Pricing from './Components/Pricing'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <OurSpeakers />
       <Testimonial/>
       <Blog />
+      <Pricing/>
       <Video />
       <Footer />
 
