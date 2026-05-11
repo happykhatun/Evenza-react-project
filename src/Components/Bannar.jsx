@@ -11,7 +11,7 @@ const Bannar = () => {
     return (
         <>
             <section className='bg-[url(assets/Background.png)] bg-no-repeat bg-cover bg-center relative '>
-                <div className='inset-0 absolute bg-[#0F3059]/50'></div>
+                <div className='inset-0 absolute bg-[#0F3059]/60'></div>
                 <div className="container relative z-10">
                     <div className='py-37.5'>
                         <div className='w-100
@@ -21,21 +21,21 @@ const Bannar = () => {
                             <img src={border3} alt="" className='absolute top-4 left-16' />
                             <p className='font-normal ml-18'>Ideas that spark change.</p>
                         </div>
-                        <div className='w-246 mx-auto text-center '>
-                            <h1 className='text-[76px] font-extrabold leading-[83.6px] tracking-[-1.52px] text-white mt-2 mb-3.75'>Connecting Minds to Shape
+                        <div className='lg:w-246 mx-auto text-center md:w-180  px-10 lg:px-0  '>
+                            <h1 className='lg:text-[76px] text-3xl md:text-[40px] font-extrabold leading-tight lg:leading-[83.6px] lg:tracking-[-1.52px] text-white mt-2 mb-3.75'>Connecting Minds to Shape
                                 Tomorrow's Big Ideas</h1>
-                            <p className='p-text text-white w-175 mx-auto'>Experience a powerful gathering of visionaries, creators, and industry experts united by one goal—
+                            <p className='p-text text-white lg:w-175  mx-auto'>Experience a powerful gathering of visionaries, creators, and industry experts united by one goal—
                                 exchanging ideas that spark growth, innovation, and meaningful change.</p>
-                            <div className='flex items-center gap-10 mt-13 justify-center'>
+                            <div className='lg:flex flex flex-col lg:items-center gap-10 mt-13 justify-center'>
                                 <Btn>Explore Schedule</Btn>
-                                <div className='flex items-center gap-5'>
+                                <div className='flex items-center gap-5 lg:justify-start justify-center'>
                                     <div className='w-8.75 h-8.75 rounded-full bg-purple flex justify-center items-center'>
                                         <img src={play} alt="" />
                                     </div>
                                     <p className='font-bold text-white'>Watch Video</p>
                                 </div>
                             </div>
-                          <CountDown/>
+                            <CountDown />
                         </div>
                     </div>
                 </div>

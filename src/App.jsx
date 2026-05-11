@@ -7,18 +7,28 @@ import Features from './Components/Features'
 import Blog from './Components/Blog'
 import KeyBenefits from './Components/KeyBenefits'
 import Footer from './Components/Footer'
+import Schedule from './Components/Schedule'
+import OurSpeakers from './Components/OurSpeakers'
+import Video from './Components/Video'
+import Testimonial from './Components/Testimonial'
+
+
 
 const App = () => {
   return (
     <div>
-      <NavBar/>
-      <Bannar/>
-      <AboutUs/>
-      <Features/>
-      <KeyBenefits/>
-      <Blog/>
-      <Footer/>
-    
+      <NavBar />
+      <Bannar />
+      <AboutUs />
+      <Features />
+      <KeyBenefits />
+      <Schedule />
+      <OurSpeakers />
+      <Testimonial/>
+      <Blog />
+      <Video />
+      <Footer />
+
     </div>
   )
 }

@@ -17,7 +17,7 @@ const CountDown = () => {
         <>
             <div>
                 <p className='text-white mt-15 mb-10'>Upcoming Speaker Reveal - Don't Miss Out</p>
-                <div className='flex gap-7.5 justify-center'>
+                <div className='lg:flex grid grid-cols-2 gap-7.5 justify-center'>
                     <div className='bg-white/10 rounded-[20px] w-31.25 h-30 p-5'>
                         <h2 className='font-bold text-[40px] text-white '>{count.days}</h2>
                         <p className='p-text text-white/80'>Days</p>

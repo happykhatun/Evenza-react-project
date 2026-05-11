@@ -5,13 +5,15 @@ import bg_2 from '../assets/bg-2.svg';
 import benefits_image from '../assets/benefits-image.png';
 import about_img from '../assets/about_img.png';
 import call from '../assets/call.svg';
+import BG_1 from '../assets/BG_1.png';
+import BG_2 from '../assets/BG_2.png';
 import Btn from './Btn';
 
 const KeyBenefits = () => {
     return (
         <>
             <section className='py-25'>
-                <div className="container">
+                <div className="container relative">
                     <div className='flex gap-15 '>
                         <div>
                             <Heading
@@ -56,6 +58,10 @@ const KeyBenefits = () => {
                             <img src={benefits_image} alt="" className='absolute top-50 left-79' />
                         </div>
 
+                    </div>
+                    <div>
+                        <img src={BG_1} alt="" className='absolute top-0 right-0'/>
+                         <img src={BG_2} alt="" className='absolute bottom-0 right-130' />
                     </div>
                 </div>
             </section>

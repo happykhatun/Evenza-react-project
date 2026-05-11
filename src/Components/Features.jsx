@@ -19,11 +19,11 @@ const Features = () => {
                         title="Core features that power our
                         exceptional services"
                         dotclass="bg-white"
-                        className="text-white text-center mx-auto"
+                        className="text-white lg:text-center lg:mx-auto"
                         align=" justify-center"
                         text="text-white"
                     />
-                    <div className='flex justify-between mt-20'>
+                    <div className='lg:flex lg:justify-between md:grid-cols-2 sm:grid grid-cols-1 space-y-6 lg:space-y-0 mt-20 px-10 lg:px-0'>
                         <FeatureCard
                             icon={icon_1}
                             title="Event Planning Manage"
@@ -64,8 +64,8 @@ const Features = () => {
                             btnicon={arrow}
                         />
                     </div>
-                    <p className='p-text text-center mt-15 mb-5.5 text-white'>Join our team and help weave innovation, quality, and success together worldwide.</p>
-                    <div className='text-white font-bold text-[20px] flex gap-3 items-center justify-center'>
+                    <p className='p-text text-center mt-15 mb-5.5 text-white lg:w-auto w-100 px-10 lg:px-0'>Join our team and help weave innovation, quality, and success together worldwide.</p>
+                    <div className='text-white font-bold text-[20px] flex  gap-3 items-center px-10 lg:px-0 justify-center'>
                         <h4>4.9/5</h4>
                         <div className='flex gap-2'>
                             <img src={star} alt="" />

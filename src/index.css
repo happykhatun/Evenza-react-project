@@ -19,5 +19,5 @@
 }
 
 @utility p-text {
-  @apply font-normal leading-[25.6px] text-gray
+  @apply font-normal lg:leading-[25.6px] text-gray lg:text-[16px] text-[14px]
 }
