@@ -13,7 +13,7 @@ import Video from './Components/Video'
 import Testimonial from './Components/Testimonial'
 import Pricing from './Components/Pricing'
 import FAQ from './Components/FAQ'
-
+import Image from './Components/Image'
 
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
       <KeyBenefits />
       <Schedule />
       <OurSpeakers />
-      
+      <Image/>
       <Pricing/>
       <Video />
       <FAQ/>

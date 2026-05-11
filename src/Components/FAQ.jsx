@@ -3,7 +3,7 @@ import faqs_image from '../assets/faqs-image.png';
 import Heading from './Heading';
 import { CiCirclePlus } from "react-icons/ci";
 import { CiCircleMinus } from "react-icons/ci";
-import call from '../assets/call.svg';
+import faqcall from '../assets/faqcall.svg';
 
 
 const FAQ = () => {
@@ -44,17 +44,16 @@ const FAQ = () => {
             <section className='py-25'>
                 <div className="container">
                     <div className='flex justify-between items-center'>
-                        <div>
+                        <div className='relative'>
                             <img src={faqs_image} alt="" className='w-148.75 h-208.25' />
-                            <div className='w-55 bg-purple p-6'>
-                                <p className='font-bold text-white text-[20px]'>Your Questions,
-                                    Clearly Answer</p>
-                                <div className=' rounded-full  flex justify-center items-center'>
-                                    <img src={call} alt="" className='' />
+                                <div className='w-55 bg-purple p-6 rounded-[10px] absolute right-0 bottom-0 border-10 border-white '>
+                                    <p className='font-bold text-white text-[20px]'>Your Questions,
+                                        Clearly Answer</p>
+                                    <div className='bg-white rounded-full mt-13 mb-4.5 w-10 h-10  flex justify-center items-center '>
+                                        <img src={faqcall} alt="" className='' />
+                                    </div>
+                                    <p className='p-text text-white'>+00 123 456 789</p>
                                 </div>
-                                <p className='p-text text-white'>+00 123 456 789</p>
-
-                            </div>
                         </div>
                         <div>
                             <Heading
@@ -67,7 +66,7 @@ const FAQ = () => {
                                     data.map((item, index) => (
                                         <div
                                             key={index}
-                                            className='bg-[#F6F6F7]  rounded-[20px] py-5.5 px-6'
+                                            className='bg-[#F6F6F7] transition-all duration-30 rounded-[20px] py-5.5 px-6'
                                         >
                                             {/* Question */}
                                             <div
@@ -79,10 +78,10 @@ const FAQ = () => {
                                                 </h3>
                                                 <div>
                                                     {open === index ? (
-                                                        <CiCircleMinus className='text-[24px] text-purple' />
+                                                        <CiCircleMinus className='text-[24px] text-purple cursor-pointer ' />
 
                                                     ) : (
-                                                        <CiCirclePlus className='text-[24px] text-purple ' />
+                                                        <CiCirclePlus className='text-[24px] text-purple cursor-pointer ' />
 
                                                     )}
                                                 </div>
