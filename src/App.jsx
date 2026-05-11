@@ -12,6 +12,7 @@ import OurSpeakers from './Components/OurSpeakers'
 import Video from './Components/Video'
 import Testimonial from './Components/Testimonial'
 import Pricing from './Components/Pricing'
+import FAQ from './Components/FAQ'
 
 
 
@@ -25,10 +26,12 @@ const App = () => {
       <KeyBenefits />
       <Schedule />
       <OurSpeakers />
-      <Testimonial/>
-      <Blog />
+      
       <Pricing/>
       <Video />
+      <FAQ/>
+      <Testimonial/>
+      <Blog />
       <Footer />
 
     </div>

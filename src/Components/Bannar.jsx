@@ -26,7 +26,7 @@ const Bannar = () => {
                                 Tomorrow's Big Ideas</h1>
                             <p className='p-text text-white lg:w-175  mx-auto'>Experience a powerful gathering of visionaries, creators, and industry experts united by one goal—
                                 exchanging ideas that spark growth, innovation, and meaningful change.</p>
-                            <div className='lg:flex flex flex-col lg:items-center gap-10 mt-13 justify-center'>
+                            <div className='lg:flex flex-row  lg:items-center gap-10 mt-13 justify-center'>
                                 <Btn>Explore Schedule</Btn>
                                 <div className='flex items-center gap-5 lg:justify-start justify-center'>
                                     <div className='w-8.75 h-8.75 rounded-full bg-purple flex justify-center items-center'>
