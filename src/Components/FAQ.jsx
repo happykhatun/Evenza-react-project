@@ -46,14 +46,14 @@ const FAQ = () => {
                     <div className='flex justify-between items-center'>
                         <div className='relative'>
                             <img src={faqs_image} alt="" className='w-148.75 h-208.25' />
-                                <div className='w-55 bg-purple p-6 rounded-[10px] absolute right-0 bottom-0 border-10 border-white '>
-                                    <p className='font-bold text-white text-[20px]'>Your Questions,
-                                        Clearly Answer</p>
-                                    <div className='bg-white rounded-full mt-13 mb-4.5 w-10 h-10  flex justify-center items-center '>
-                                        <img src={faqcall} alt="" className='' />
-                                    </div>
-                                    <p className='p-text text-white'>+00 123 456 789</p>
+                            <div className='w-55 bg-purple p-6 rounded-[10px] absolute right-0 bottom-0 border-10 border-white '>
+                                <p className='font-bold text-white text-[20px]'>Your Questions,
+                                    Clearly Answer</p>
+                                <div className='bg-white rounded-full mt-13 mb-4.5 w-10 h-10  flex justify-center items-center '>
+                                    <img src={faqcall} alt="" className='' />
                                 </div>
+                                <p className='p-text text-white'>+00 123 456 789</p>
+                            </div>
                         </div>
                         <div>
                             <Heading
@@ -101,7 +101,6 @@ const FAQ = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 

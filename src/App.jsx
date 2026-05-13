@@ -14,6 +14,7 @@ import Testimonial from './Components/Testimonial'
 import Pricing from './Components/Pricing'
 import FAQ from './Components/FAQ'
 import Image from './Components/Image'
+import Slide from './Components/Slide'
 
 
 const App = () => {
@@ -33,6 +34,8 @@ const App = () => {
       <Testimonial/>
       <Blog />
       <Footer />
+
+      <Slide/>
 
     </div>
   )
